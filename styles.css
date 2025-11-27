@@ -164,3 +164,40 @@ body {
 .recent-stories-content a:hover {
   text-decoration: underline;
 }
+.newsletter {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.newsletter h2,
+.newsletter p {
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: inline-flex;   /* keeps input + button side-by-side */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px 15px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.newsletter-form button:hover {
+  background-color: #005fa3;
+}
