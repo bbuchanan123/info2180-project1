@@ -41,3 +41,26 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+/* HERO SECTION */
+.overview-hero {
+    background-color: #E2E8F0;  
+    padding: 50px 0;
+}
+
+.overview-hero .container {
+    display: flex;              
+    align-items: center;        
+    gap: 40px;                  
+}
+
+.overview-hero-image img {
+    width: 100%;
+    max-width: 400px;          
+    border-radius: 5px;        
+}
+
+.overview-hero-text h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
