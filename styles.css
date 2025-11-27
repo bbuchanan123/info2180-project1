@@ -1,4 +1,36 @@
 /* Add your CSS to this file */
+
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+/* Layout: Title left, navigation right */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Remove bullets + horizontal links */
+nav ul {
+    list-style: none;      
+    display: flex;         
+    gap: 20px;             
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6b7280;       
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #5A67D8;        
+}
+
 body {
     margin: 0;
     font-size: 16px;
