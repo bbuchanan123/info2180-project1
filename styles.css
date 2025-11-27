@@ -92,3 +92,36 @@ body {
     color: #48BB78;         
     margin-top: 15px;
 }
+
+/* COVID-19 TESTING SECTION */
+.testing {
+    background-color: #4A5568;   
+    color: white;                
+    padding: 50px 0;
+}
+
+.testing .container {
+    display: flex;               
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.testing h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.testing p {
+    max-width: 600px;            
+}
+
+/* Button style */
+.testing .btn {
+    background-color: #48BB78;   
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;          
+}
