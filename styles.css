@@ -64,3 +64,31 @@ body {
     font-size: 32px;
     margin-bottom: 15px;
 }
+
+/* Section heading styles */
+.learn-about h2 {
+    font-size: 24px;       
+    color: #48BB78;        
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;             
+}
+
+.card {
+    border: 1px solid #E2E8F0;   
+    border-radius: 5px;          
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+}
+
+.card-body h3 {
+    font-size: 21px;       
+    color: #48BB78;         
+    margin-top: 15px;
+}
