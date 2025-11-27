@@ -1,5 +1,3 @@
-/* Add your CSS to this file */
-
 header {
     background-color: white;
     padding: 20px 0;
@@ -124,4 +122,45 @@ body {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;          
+}
+
+.recent-stories {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.recent-stories img {
+  width: 350px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recent-stories-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.recent-stories-content h3 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.recent-stories-content p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.recent-stories-content a {
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.recent-stories-content a:hover {
+  text-decoration: underline;
 }
